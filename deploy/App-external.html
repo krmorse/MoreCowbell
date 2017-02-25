@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>MoreCowbell</title>
+
+    <script type="text/javascript" src="https://rally1.rallydev.com/apps/2.1/sdk.js"></script>
+
+    <script type="text/javascript">
+        Rally.onReady(function () {
+                Ext.define("MoreCowbell",{extend:"Rally.app.App",componentCls:"app",layout:"fit",launch:function(){this.add({xtype:"component",autoEl:{tag:"iframe",frameborder:0,src:"https://player.vimeo.com/video/121869713?autoplay=1&quality=720p#t=1m48s"}})}});
+
+            Rally.launchApp('MoreCowbell', {
+                name:"MoreCowbell",
+	            parentRepos:""
+            });
+
+        });
+    </script>
+
+
+    <style type="text/css">
+        
+    </style>
+</head>
+<body>
+</body>
+</html>
